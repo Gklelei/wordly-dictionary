@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #333;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#search-form {
+  display: flex;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  flex-grow: 1;
+}
+
+input {
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+}
+
+button {
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+/* Results */
+.word-result h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+.phonetic {
+  color: #888;
+  font-family: serif;
+}
+
+.meaning {
+  margin-top: 25px;
+}
+.pos {
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.defs {
+  padding-left: 20px;
+}
+.defs li {
+  margin-bottom: 12px;
+}
+
+.eg {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 4px;
+  font-style: italic;
+}
+
+.error {
+  color: #d00;
+  margin-top: 20px;
+}
